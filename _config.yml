@@ -21,7 +21,7 @@ subtitle:
 description:
 keywords:
 author: bellick 
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -86,11 +86,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git 
-  repo: git@github.com:wangbei98/wangbei98.github.io.git
-  branch: master
+  type: 
+  repo: 
+  branch: 

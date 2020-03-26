@@ -2,10 +2,11 @@
 title: 关于我
 date: {{date}}
 type: about 
+layout: about
 comments: false
 ---
 
-考研狗一枚
+
 
 email: beiwang121@163.com
 
