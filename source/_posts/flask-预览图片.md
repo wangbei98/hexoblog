@@ -12,16 +12,19 @@ tags:
 mathjax:
 ---
 
-## flask-disk 图片预览
+# flask-disk 图片预览
 
-* 使用 Pillow 处理图片
+## 使用 Pillow 处理图片
+
 ```python
 from PIL import Image
 
 img_data = Image.open(target_file)
 img_data.thumbnail((width,height))
 ```
-* Image对象转换为比特流
+
+## Image对象转换为比特流
+
 ```python
 import io
 
@@ -74,3 +77,8 @@ class PreviewAPI(Resource):
 		else:
 			return jsonify(code = 24,message='preview not allowed')
 ```
+
+
+## 参考博客
+
+* https://github.com/python-pillow/Pillow/issues/3192
