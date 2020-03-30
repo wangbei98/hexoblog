@@ -135,6 +135,8 @@ FileNode
 
 {% post_link flask-预览图片  %}
 
+{% post_link flask-部署flask程序 %}
+
 ## 项目地址
 
 [后端](https://github.com/wangbei98/cloud-disk)
