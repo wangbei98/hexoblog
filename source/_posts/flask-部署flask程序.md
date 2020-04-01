@@ -146,3 +146,15 @@ systemctl disable nginx
 
 参考 [这篇文章](https://blog.csdn.net/guolindonggld/article/details/83386920)
 
+* 报错
+
+```
+Unlinking stale socket /var/run/supervisor/supervisor.sock
+```
+
+* 解决办法
+
+```
+$ unlink /var/run/supervisor/supervisor.sock
+```
+
