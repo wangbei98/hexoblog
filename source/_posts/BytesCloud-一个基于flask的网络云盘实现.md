@@ -137,6 +137,8 @@ FileNode
 
 {% post_link flask-部署flask程序 %}
 
+{% post_link flask-login-权限判定 %}
+
 ## 项目地址
 
 [后端](https://github.com/wangbei98/cloud-disk)
