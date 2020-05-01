@@ -15,7 +15,7 @@ mathjax:
 
 ## 需求
 
-后端实现了文件下载API： http://116.62.177.146/api/file/download?id=xx
+后端实现了文件下载API： http://xxx.xxx.xxxx.xxxx/api/file/download?id=xx
 前端携带用来认证的cookie，调用此GET请求，可以实现文件的下载（附件形式）
 
 在vue中，使用a 标签可以发送get请求，但是不能携带cookie 数据，无法实现鉴权，因此需使用axios发送请求
