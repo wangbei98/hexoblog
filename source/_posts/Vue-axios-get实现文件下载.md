@@ -67,7 +67,7 @@ mathjax:
               let link = document.createElement('a')
               link.style.display = 'none'
               link.href = url
-              link.setAttribute('download', 'excel.xlsx')
+              link.setAttribute('download', file.filename)
 
               document.body.appendChild(link)
               link.click()
