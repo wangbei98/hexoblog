@@ -32,4 +32,29 @@ mathjax:
   * 服务端设置，前端直接调用
   * 后端允许前端某个站点进行访问
 * JSONP 跨域
+
 * 代理跨域
+
+## Vue中的代理跨域
+
+在vue项目的根目录下的 /config/index.js 中修改
+
+```js
+dev:{
+	// 。。。
+	//。。。
+	// 其他配置
+	
+	// 设置代理
+	proxyTable: {
+      '/api':{
+          target:'http://1x1.2xx.1xx.1xx',// ip地址
+          changeOrigin:true,
+          logLevel: 'debug',
+          pathRewrite:{
+              '/api':'/api' 
+          }
+      }
+    }
+}
+```
