@@ -4,6 +4,7 @@ author: bellick
 copyright: true
 top: 0
 date: 2020-05-27 00:23:13
+categories:
 - Vue
 tags:
 - Vue
