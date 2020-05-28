@@ -187,7 +187,7 @@ post:
       enable: true
       format: "{} 分钟"
     views:  # 阅读次数，统计基于不蒜子  *不蒜子近期连接不稳定，谨慎开启
-      enable: false
+      enable: true
       format: "{} 次"
   updated:
     enable: false
