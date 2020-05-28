@@ -223,7 +223,7 @@ post:
 # utterances
 # You can install utterances with https://utteranc.es/ and generate your configuration
 utterances:
-  repo: wangbei98/HexoBlogComments
+  repo: wangbei98/hexo-comments
   issue_term: pathname
   label: #
   theme: github-light
@@ -361,5 +361,3 @@ links:
   subtitle:  # 打字机内容
   items:  # 键是友链标题、值的列表内容分别是 [链接, 简介, 头像]，头像可以省略
     Github: [https://github.com/wangbei98/, github地址 ,/img/favicon.JPG]
-    Fluid Repo: [https://github.com/fluid-dev/hexo-theme-fluid, 主题 GitHub 仓库, /img/favicon.JPG]
-    Fluid Changelog: [https://github.com/fluid-dev/hexo-theme-fluid/blob/master/Changelog.md, 主题更新日志, /img/favicon.JPG]
