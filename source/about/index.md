@@ -15,3 +15,10 @@ email: beiwang121@163.com
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gf7yonfc6uj30iy0oj45s.jpg)
 
 欢迎推荐工作/实习机会
+
+<div class="comments" id="comments">
+                                
+  <script defer src="https://utteranc.es/client.js" repo="wangbei98/hexo-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous">
+  </script>
+
+</div>
