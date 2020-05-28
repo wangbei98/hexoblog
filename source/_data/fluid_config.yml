@@ -98,6 +98,7 @@ navbar:
     tag: /tags/
     about: /about/
     links: /links/  # 友链页，把前面#去掉即可展示
+    添加友链: /addLink/
 
 search: # 搜索栏
   enable: true
