@@ -228,7 +228,6 @@ utterances:
   label: #
   theme: github-light
   crossorigin: anonymous
-  async: true
 
 # Disqus
 # 国内用户不要用，已被墙
