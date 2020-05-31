@@ -6,6 +6,15 @@ comments: true
 
 欢迎大佬们交换友链✌️
 
+<p class="note note-primary">
+请确认已经在自己的博客上添加我的博客链接，然后按照以下格式提供友链.<br/>
+友链格式：<br/>
+名字： Bei's Blog<br/>
+描述： Debug the world<br/>
+链接： https://wangbei.xyz<br/>
+头像： https://wangbei.xyz/img/favicon.JPG<br/>
+</p>
+
 
 <!-- <div class="comments" id="comments">
                                 

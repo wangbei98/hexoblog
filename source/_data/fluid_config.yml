@@ -258,7 +258,7 @@ gitalk:
 valine:
   appid:  YY2AwNypNnAzBznWy6LlhIS2-gzGzoHsz # your leancloud application appid
   appkey: 9C5ifON1dTJQ1Yp4jw4QrYVJ # your leancloud application appkey
-  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 说点什么 # comment box placeholder
   avatar: retro # gravatar style https://valine.js.org/avatar.html
@@ -362,3 +362,8 @@ links:
   subtitle:  # 打字机内容
   items:  # 键是友链标题、值的列表内容分别是 [链接, 简介, 头像]，头像可以省略
     Github: [https://github.com/wangbei98/, github地址 ,/img/favicon.JPG]
+    潘高的小站: [https://blog.pangao.vip,IT套路深，必须瞎折腾,https://blog.pangao.vip/images/avatar.jpg]
+    Sakura` Blogs: [https://jinan6.vip/,个人小站, https://jinan6.vip/img/avatar.png]
+    鱼跃此时海: [https://www.overme.cn/,鱼跃此时海，花开彼岸天,https://www.overme.cn/static/img/portrait.jpg]
+    平凡的你我: [https://reinness.com, 理想成为大牛的小陈同学, https://reinness.com/avatar.png]
+    凉风有信: [https://blog.cnguu.cn/,责难无以成事,https://static.xmt.cn/cc50c217cbe342ce951324583f2c6139.png]
