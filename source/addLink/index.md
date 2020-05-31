@@ -14,7 +14,7 @@ comments: true
 
 </div> -->
 
-<div class="comments" id="comments">         
+<!-- <div class="comments" id="comments">         
   <div id="gitalk-container"></div>
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script defer src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -40,4 +40,32 @@ comments: true
       oldLoad && oldLoad();
     }
   </script>
+</div> -->
+
+<div class="comments" id="comments">
+  <div id="vcomments"></div>
+  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+  <script type="text/javascript">
+    var notify = 'false' === 'true';
+    var verify = 'false' === 'true';
+    var oldLoad = window.onload;
+    window.onload = function () {
+      new Valine({
+        el: '#vcomments',
+        notify: notify,
+        verify: verify,
+        app_id: "YY2AwNypNnAzBznWy6LlhIS2-gzGzoHsz",
+        app_key: "9C5ifON1dTJQ1Yp4jw4QrYVJ",
+        placeholder: "说点什么",
+        avatar: "/retro",
+        meta: ['nick', 'mail', 'link'],
+        pageSize: "10",
+      });
+      oldLoad && oldLoad();
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" rel="nofollow noopener">comments
+      powered by Valine.</a></noscript>
 </div>

@@ -206,7 +206,7 @@ post:
     content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">' # 自定义区域，支持 HTML，可自行插入赞赏码、公众号二维码等内容
   comments:  # 评论
     enable: true  # 开启评论
-    type: gitalk  # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere  推荐 utterances
+    type: valine  # 指定使用的评论模块  available: disqus | valine | gitalk | utterances | changyan | livere  推荐 utterances
   image_zoom:  # 文章图片可点击放大
     enable: true
   math:  # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见 https://hexo.fluid-dev.com/docs/guide/#数学公式
@@ -239,11 +239,11 @@ disqus:
 # You can get yout ClientID and ClientSecret from https://github.com/settings/applications/new
 # More info available at https://github.com/gitalk/gitalk#options
 gitalk:
-  clientID:                     fadee00c47c3179316e9 # GitHub Application Client ID
-  clientSecret:                 dd2e0d89ce4037c84b48f6a15e748a6ecadb10f3 # GitHub Application Client Secret
+  clientID:                     46c7c46b323e11b2c5dc # GitHub Application Client ID
+  clientSecret:                 93bdd83df18b9d8107dceb3f69358f705260c132 # GitHub Application Client Secret
   repo:                         https://github.com/wangbei98/hexo-comments # The repo to store comments
-  owner:                        wangbei98 # GitHub repository owner. Can be personal user or organization.
-  admin:                        wangbei98 # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like "['admin']" or "['admin1','admin2']"
+  owner:                        https://github.com/wangbei98 # GitHub repository owner. Can be personal user or organization.
+  admin:                        https://github.com/wangbei98 # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like "['admin']" or "['admin1','admin2']"
   id: location.pathname         # The unique id of the page. Length must less than 50.
   language: zh-CN               # Localization language key, en, zh-CN and zh-TW are currently available.
   labels: "['Gitalk']"          # GitHub issue labels.
@@ -256,8 +256,8 @@ gitalk:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid:  YY2AwNypNnAzBznWy6LlhIS2-gzGzoHsz # your leancloud application appid
+  appkey: 9C5ifON1dTJQ1Yp4jw4QrYVJ # your leancloud application appkey
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: 说点什么 # comment box placeholder
