@@ -17,7 +17,7 @@ mathjax:
 ### 已经出现的字母 value+= n ：
 这样既能标记处它不符合要求，又可以反映出它和从来没出现过的字母的区别。
 相当于一个节点储存了两种信息。
-```
+```python
 # -*- coding:utf-8 -*-
 import string
 class Solution:
