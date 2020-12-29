@@ -6,7 +6,7 @@ layout: about
 comments: true
 ---
 
-南京大学准研究生
+南京大学研究生
 qq: 1950495382
 email: beiwang121@163.com
 
