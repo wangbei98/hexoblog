@@ -1,5 +1,5 @@
 ---
-title: 「面试」SAP面试凉经
+title: 「面试」SAP
 author: bellick
 copyright: true
 top: 0
@@ -10,7 +10,7 @@ tags:
 mathjax:
 ---
 
-# SAP VT intern 面试凉经
+# SAP VT intern 
 
 ## 1.谈谈对「云」的理解
 
