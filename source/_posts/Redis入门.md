@@ -60,3 +60,11 @@ redis.conf文件
 
 * append only [no, yes] 是否打开AOF
 * appendfsync [everysec, always, no] AOF刷新策略
+
+
+
+
+
+## 选型
+
+* 单副本：会有主动的HA，但新的节点是空的
