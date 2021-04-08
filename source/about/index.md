@@ -6,7 +6,7 @@ layout: about
 comments: true
 ---
 
-南京大学研究生在读，ByteDancer（实习准入职）
+南京大学研究生在读
 qq: 1950495382
 email: beiwang121@163.com
 
